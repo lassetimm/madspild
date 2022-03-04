@@ -1,0 +1,37 @@
+/* This is just to reset all margin and padding */
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+
+    transition: all 0.2s ease;
+}
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.TopNavBar {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    font-size: 25px;
+    background-color: #ADA8A8;
+}
+.TopNavBar a {
+    padding: 15px;
+    color: #ffffff;
+}
+.TopNavBar a:hover {
+    background-color: #929292;
+    color: black;
+}
+.TopNavBar a.current {
+    background-color: #4FA456;
+    color: #ffffff;
+}
+.TopNavBar a.current:hover {
+    background-color: #04AA0E;
+    color: white;
+}
