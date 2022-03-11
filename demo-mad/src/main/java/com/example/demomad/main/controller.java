@@ -20,6 +20,16 @@ public class controller {
         return "about";
     }
 
+    @GetMapping("/tips")
+    public String tips(){
+        return "tips";
+    }
+
+    @GetMapping("/madfacts")
+    public String madfacts() {
+        return "madfacts";
+    }
+
     @ResponseBody
     @GetMapping("/echo")
     public String echo(@RequestParam String echo){
